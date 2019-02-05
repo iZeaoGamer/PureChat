@@ -685,7 +685,7 @@ class PureChat extends PluginBase
      * @param null $levelName
      * @return bool
      */
-    public function setPrefix($prefix, Player $player, $levelName = null)
+    public function setPrefix($prefix, $player, $levelName = null)
     {
         if($levelName === null)
         {
@@ -709,7 +709,7 @@ class PureChat extends PluginBase
      * @param null $levelName
      * @return bool
      */
-    public function setSuffix($suffix, Player $player, $levelName = null)
+    public function setSuffix($suffix, $player, $levelName = null)
     {
         if($levelName === null)
         {
