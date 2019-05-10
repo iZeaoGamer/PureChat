@@ -469,8 +469,8 @@ class PureChat extends PluginBase
         }
         else
         {
-            $string = str_replace("{fac_name}", '', $string);
-            $string = str_replace("{fac_rank}", '', $string);
+            $string = str_replace("{fac_name}", '...', $string);
+            $string = str_replace("{fac_rank}", '...', $string);
         }
 
         $string = str_replace("{world}", ($levelName === null ? "" : $levelName), $string);
